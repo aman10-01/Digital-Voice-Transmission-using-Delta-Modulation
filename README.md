@@ -1,5 +1,7 @@
 **_Digital Voice Transmission using Delta Modulation_**
-**Overview**
+
+_**Overview**_
+
 This Python project demonstrates Delta Modulation-based Digital Voice Transmission with noise simulation and reconstruction. It processes a voice signal by performing:
 
 Delta Modulation
@@ -15,7 +17,9 @@ Signal Reconstruction
 The output includes a reconstructed audio file and comparative signal plots.
 
 
-**Features**
+
+_**Features**_
+
 Converts stereo to mono for consistent processing.
 
 Performs delta modulation with adjustable step size.
@@ -29,7 +33,9 @@ Saves the reconstructed voice as a .wav file.
 Generates detailed plots for each stage of processing.
 
 
-**Requirements**
+
+_**Requirements**_
+
 Python 3.x
 
 Libraries:
@@ -47,7 +53,9 @@ Copy
 Edit
 pip install numpy scipy matplotlib
 
-**How to Run**
+
+_**How to Run**_
+
 Place your input audio file named voice_input.wav in the same directory.
 
 Run the Python script:
@@ -62,7 +70,9 @@ reconstructed_voice.wav – The reconstructed voice signal.
 
 delta_modulation_results.png – Plots of original, modulated, noisy, and reconstructed signals.
 
-**Output Description**
+
+_**Output Description**_
+
 Original Voice Signal – The normalized input signal.
 
 Delta Modulated Signal – The quantized signal after delta modulation.
@@ -71,19 +81,25 @@ Noisy Delta Modulated Signal – Binary signal with simulated noise.
 
 Reconstructed Signal – The demodulated and filtered output.
 
-**Customization**
+
+_**Customization**_
+
 Step Size: Adjust step_size for quantization control.
 
 Noise Level: Modify noise_level to simulate different transmission environments.
 
 Filter Cutoff: Change cutoff_freq to tune the output smoothing.
 
-**Project Applications**
+
+_**Project Applications**_
+
 Digital communication simulation
 
 Voice signal processing experiments
 
 Educational projects on modulation techniques
 
-**License**
+
+_**License**_
+
 This project is for educational use. Feel free to modify and use it for learning purposes.
